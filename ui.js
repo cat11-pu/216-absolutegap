@@ -33,7 +33,7 @@ export function mount(spec, parts) {
       row.appendChild(mark);
       parts.stage.appendChild(row);
     });
-    parts.legend.textContent = "绝对差合计 " + view.total + "，最大差 " + view.biggest + "（第 " + (view.biggest_at + 1) + " 项）";
+    parts.legend.textContent = "绝对差合计 " + view.total + "，最大差 " + view.biggest + "（第 " + view.biggest_at + " 项）";
     parts.log.textContent = "项数 " + view.count;
   }
 
